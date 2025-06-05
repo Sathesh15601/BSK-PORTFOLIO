@@ -63,7 +63,7 @@ const Navbar = () => {
               "&:hover": { backgroundColor: "gray" },
             }}
           >
-            Resume
+            Download Resume
           </Button>
         </a>
         <div className="md:hidden justify-end ">
@@ -107,7 +107,7 @@ const Navbar = () => {
                 }}
                 fullWidth
               >
-                Resume
+                Download Resume
               </Button>
             </a>
           </div>

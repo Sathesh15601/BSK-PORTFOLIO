@@ -17,6 +17,8 @@
     "@mui/material": "^7.1.0",
     "@mui/styled-engine-sc": "^7.1.0",
     "@tailwindcss/vite": "^4.1.7",
+    "framer-motion": "^12.15.0",
+    "keen-slider": "^6.8.6",
     "lucide-react": "^0.511.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
