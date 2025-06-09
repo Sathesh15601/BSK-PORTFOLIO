@@ -19,19 +19,19 @@ const Footer = () => {
             <FaGithub />
           </a>
           <a
-            href="https://linkedin.com/in/YOUR-LINKEDIN-ID"
+            href="https://www.linkedin.com/in/sathesh15601"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-fuchsia-500 transition"
           >
             <FaLinkedin />
           </a>
-          <a
-            href="mailto:sathesh@example.com"
+          {/* <a
+            href="https://Sathesh15601@gmail.com"
             className="hover:text-fuchsia-500 transition"
           >
             <FaEnvelope />
-          </a>
+          </a> */}
         </div>
       </div>
     </footer>

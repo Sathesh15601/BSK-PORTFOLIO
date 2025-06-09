@@ -59,13 +59,13 @@ const Home = () => {
           >
             <FaLinkedin className="hover:text-fuchsia-400  transition duration-300 hover:scale-110" />
           </a>
-          <a
+          {/* <a
             href="https://Sathesh15601@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
             <BiLogoGmail className="hover:text-fuchsia-400  transition duration-300 hover:scale-110" />
-          </a>
+          </a> */}
         </div>
       </section>
       <section id="contact" className="min-h-screen  text-white px-6 py-16">
