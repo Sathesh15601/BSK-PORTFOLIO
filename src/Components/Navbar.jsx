@@ -79,6 +79,7 @@ const Navbar = () => {
           open={drawerOpen}
           onClose={toggleDrawer}
           className="md:hidden "
+          data-aos="fade-right"
         >
           <div className="w-60 p-4 bg-gray-900 h-full flex flex-col gap-5">
             {navList.map((list, index) => (
