@@ -9,12 +9,19 @@ const Contact = () => {
     <section
       id="contact"
       className="min-h-screen bg-gray-900 text-white px-4 sm:px-6 lg:px-8 py-16"
+      data-aos="fade-up"
     >
       <Title text1="CONTACT" text2="US" />
 
-      <div className="flex flex-col md:flex-row justify-between items-start gap-10 max-w-6xl mx-auto mt-10">
+      <div
+        className="flex flex-col md:flex-row justify-between items-start gap-10 max-w-6xl mx-auto mt-10"
+        data-aos="fade-up"
+      >
         {/* Contact Info */}
-        <div className="space-y-5 md:w-1/2 text-center md:text-left">
+        <div
+          className="space-y-5 md:w-1/2 text-center md:text-left"
+          data-aos="fade-right"
+        >
           <h2 className="text-3xl font-bold text-fuchsia-500">Sathesh Kumar</h2>
           <p className="text-gray-300 leading-relaxed">
             I'm eagerly looking forward to contributing to your organization
@@ -35,7 +42,10 @@ const Contact = () => {
         </div>
 
         {/* Contact Form */}
-        <div className="w-full md:w-1/2 border border-fuchsia-800 p-6 rounded-2xl shadow-lg bg-gray-800">
+        <div
+          className="w-full md:w-1/2 border border-fuchsia-800 p-6 rounded-2xl shadow-lg bg-gray-800"
+          data-aos="fade-left"
+        >
           <form onSubmit={(e) => e.preventDefault()}>
             <Box
               sx={{

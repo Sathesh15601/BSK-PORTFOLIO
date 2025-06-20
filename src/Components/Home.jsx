@@ -18,10 +18,11 @@ const Home = () => {
             src={Logo}
             alt="Sathesh kumar"
             className="rounded-full mx-auto w-40 h-40 object-cover mb-10"
+            data-aos="zoom-in"
           />
         </div>
 
-        <div className="text-center px-4 sm:px-6 lg:px-8">
+        <div className="text-center px-4 sm:px-6 lg:px-8" data-aos="zoom-in-up">
           <p className="font-bold text-2xl sm:text-2xl md:text-5xl text-white ">
             <TypeAnimation
               sequence={[
@@ -37,14 +38,20 @@ const Home = () => {
             />
           </p>
 
-          <p className="mt-4 text-base sm:text-lg md:text-xl text-gray-300 max-w-2xl mx-auto">
+          <p
+            className="mt-4 text-base sm:text-lg md:text-xl text-gray-300 max-w-2xl mx-auto"
+            data-aos="zoom-in-up"
+          >
             A front-end developer growing fast on my journey to become a
             full-stack developer.
           </p>
         </div>
 
         {/* Links to connect */}
-        <div className="text-4xl flex gap-5 text-white mt-5 bg-gray-800 p-3 rounded-lg">
+        <div
+          className="text-4xl flex gap-5 text-white mt-5 bg-gray-800 p-3 rounded-lg"
+          data-aos="zoom-in-up"
+        >
           <a
             href="https://github.com/Sathesh15601"
             target="_blank"

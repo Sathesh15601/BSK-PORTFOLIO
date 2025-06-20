@@ -66,17 +66,22 @@ const Porjects = () => {
     <section
       id="projects"
       className="min-h-screen bg-gray-900 text-white px-6 py-16"
+      data-aos="fade-up"
     >
       <div>
-        <Title text1={"ABOUT"} text2={"PROJECTS"} />
+        <Title text1={"ABOUT"} text2={"PROJECTS"} data-aos="fade-up" />
       </div>
 
       {/* Projects detials */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+      <div
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto"
+        data-aos="fade-up"
+      >
         {projectLists.map((proList) => (
           <div
             className="w-full h-full border  bg-gray-800 border-fuchsia-900 rounded-xl p-5 shadow-xl hover:shadow-2xl transition duration-300 hover:scale-103"
             key={proList._id}
+            data-aos="fade-up"
           >
             {/* Image */}
             <div>

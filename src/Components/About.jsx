@@ -10,11 +10,18 @@ import { IoLogoNodejs } from "react-icons/io5";
 
 const About = () => {
   return (
-    <section id="about" className="min-h-screen text-white px-4 sm:px-6 py-16">
+    <section
+      id="about"
+      className="min-h-screen text-white px-4 sm:px-6 py-16"
+      data-aos="fade-up"
+    >
       <div className="max-w-5xl mx-auto">
         <Title text1={"ABOUT"} text2={"ME"} />
 
-        <div className="font-medium text-base sm:text-lg p-5 mb-10">
+        <div
+          className="font-medium text-base sm:text-lg p-5 mb-10"
+          data-aos="fade-up"
+        >
           <p>
             Hi! I'm Sathesh Kumar, a front-end web developer with a strong
             passion for creating clean, responsive, and user-friendly websites.
@@ -26,7 +33,10 @@ const About = () => {
 
         <div className="flex flex-col lg:flex-row gap-8 ">
           {/* Experience Card */}
-          <div className="flex-1 p-5 rounded-lg border  bg-gray-800 border-fuchsia-900 shadow-2xl transition duration-300 hover:scale-103">
+          <div
+            className="flex-1 p-5 rounded-lg border  bg-gray-800 border-fuchsia-900 shadow-2xl transition duration-300 hover:scale-103"
+            data-aos="fade-up"
+          >
             <h1 className="text-center mb-5 font-bold text-3xl bg-fuchsia-950 rounded py-2">
               Experience
             </h1>
@@ -63,7 +73,10 @@ const About = () => {
           {/* Skills + Dev Tools */}
           <div className="flex-1 flex flex-col gap-8 ">
             {/* Skills Card */}
-            <div className="p-5 rounded-lg border border-fuchsia-900  bg-gray-800 shadow-xl transition duration-300 hover:scale-103">
+            <div
+              className="p-5 rounded-lg border border-fuchsia-900  bg-gray-800 shadow-xl transition duration-300 hover:scale-103"
+              data-aos="fade-up"
+            >
               <h1 className="text-center mb-5 font-bold text-3xl bg-fuchsia-950 rounded py-2">
                 Skills
               </h1>
@@ -91,7 +104,10 @@ const About = () => {
             </div>
 
             {/* Dev Tools Card */}
-            <div className="p-5 rounded-lg border border-fuchsia-900  bg-gray-800 shadow-2xl transition duration-300 hover:scale-103">
+            <div
+              className="p-5 rounded-lg border border-fuchsia-900  bg-gray-800 shadow-2xl transition duration-300 hover:scale-103"
+              data-aos="fade-up"
+            >
               <h1 className="text-center mb-5 font-bold text-3xl bg-fuchsia-950 rounded py-2">
                 Dev Tools
               </h1>
